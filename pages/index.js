@@ -75,9 +75,9 @@ export default function Home() {
             className="flex-grow focus:outline-none"
           />
           <Image
-            src="/public/Google-mic.png"
-            height={10}
-            width={10}
+            src="/Google-mic.png"
+            height={25}
+            width={20}
           />
           <button hidden onClick={search}>Search</button>
         </div>

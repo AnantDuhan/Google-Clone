@@ -41,8 +41,10 @@ function Header() {
                 onClick={() => (searchInputRef.current.value = "")}
               />
               <Image
-                src="/public/Google-mic.png"
-                className="mr-3 h-6 hidden sm:inline-flex border-l-2 pl-4"
+                src="/Google-mic.png"
+                className="mr-3 hidden sm:inline-flex border-l-2 pl-4"
+                height={25}
+                width={20}
               />
               <SearchIcon className="h-8 text-blue-500 hidden sm:inline-flex" />
               <button hidden type="submit" onClick={search}>
@@ -54,7 +56,9 @@ function Header() {
             <CogIcon className="h-10 text-gray-800 cursor-pointer w-10 p-2 rounded-full hover:bg-gray-100" />
             <Image
               className="h-10 w-10 p-2 rounded-full hover:bg-gray-100 cursor-pointer"
-              src="/public/9-dots.png"
+              src="/9-dots.png"
+              height={30}
+              width={30}
             />
             <Avatar
               className="ml-auto"
