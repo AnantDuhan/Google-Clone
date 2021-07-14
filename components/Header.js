@@ -40,8 +40,8 @@ function Header() {
                 className="h-7 sm:mr-3 text-gray-500 cursor-pointer  transition-100 transform hover:scale-125"
                 onClick={() => (searchInputRef.current.value = "")}
               />
-              <img
-                src="https://seeklogo.com/images/G/google-mic-logo-33133A4F5F-seeklogo.com.png"
+              <Image
+                src="/public/Google-mic.png"
                 className="mr-3 h-6 hidden sm:inline-flex border-l-2 pl-4"
               />
               <SearchIcon className="h-8 text-blue-500 hidden sm:inline-flex" />
@@ -52,9 +52,9 @@ function Header() {
           </div>
           <div className="flex items-center space-x-3">
             <CogIcon className="h-10 text-gray-800 cursor-pointer w-10 p-2 rounded-full hover:bg-gray-100" />
-            <img
+            <Image
               className="h-10 w-10 p-2 rounded-full hover:bg-gray-100 cursor-pointer"
-              src="https://static.thenounproject.com/png/10563-200.png"
+              src="/public/9-dots.png"
             />
             <Avatar
               className="ml-auto"

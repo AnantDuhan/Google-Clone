@@ -74,9 +74,10 @@ export default function Home() {
             type="text"
             className="flex-grow focus:outline-none"
           />
-          <img
-            src="https://seeklogo.com/images/G/google-mic-logo-33133A4F5F-seeklogo.com.png"
-            className="h-6"
+          <Image
+            src="/public/Google-mic.png"
+            height={10}
+            width={10}
           />
           <button hidden onClick={search}>Search</button>
         </div>

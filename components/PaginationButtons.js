@@ -31,4 +31,4 @@ function PaginationButtons() {
     );
 }
 
-export default PaginationButtons
+export default PaginationButtons;
