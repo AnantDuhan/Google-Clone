@@ -3,6 +3,7 @@ import { XIcon } from "@heroicons/react/solid";
 import Image from "next/image";
 import { useRouter } from "next/router";
 import { useRef } from "react";
+
 import Avatar from "./Avatar";
 import HeaderOptions from "./HeaderOptions";
 
@@ -28,6 +29,7 @@ function Header() {
               height={40}
               width={110}
               className="cursor-pointer"
+              alt="google-logo"
               onClick={() => router.push("/")}
             />
             <form className="flex flex-grow border border-gray-200 rounded-full max-w-3xl shadow-lg items-center px-5 py-1 ml-10 mr-5">
@@ -45,6 +47,7 @@ function Header() {
                 className="mr-3 hidden sm:inline-flex border-l-2 pl-4"
                 height={25}
                 width={20}
+                alt="google-mic"
               />
               <SearchIcon className="h-8 text-blue-500 hidden sm:inline-flex" />
               <button hidden type="submit" onClick={search}>
@@ -59,10 +62,13 @@ function Header() {
               src="/9-dots.png"
               height={30}
               width={30}
+              alt="9dots"
             />
-            <Avatar
-              className="ml-auto"
-              url="https://avatars.githubusercontent.com/u/50514029?v=4"
+            <Image
+              src="/AnantDuhan.png"
+              height={35}
+              width={35}
+              className="h-10 rounded-full cursor-pointer transition duration-150 transform hover:scale-110"
             />
           </div>
         </div>
