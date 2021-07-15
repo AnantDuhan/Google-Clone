@@ -104,7 +104,7 @@ export default function Home() {
           </button>
 
           <button className="btn">
-            <a href="https://www.google.com/doodles">I'm Feeling Lucky</a>
+            <a href="https://www.google.com/doodles">I am Feeling Lucky</a>
           </button>
         </div>
       </form>
