@@ -51,6 +51,7 @@ export default function Home() {
             className="h-10 w-10 p-2 rounded-full hover:bg-gray-100 cursor-pointer"
             height={30}
             width={30}
+            alt="9dots"
           />
 
           {/* Avatar */}
@@ -65,6 +66,7 @@ export default function Home() {
             height={35}
             width={35}
             className="h-10 rounded-full cursor-pointer transition duration-150 transform hover:scale-110"
+            alt="dp"
           />
         </div>
       </header>
